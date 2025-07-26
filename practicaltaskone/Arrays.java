@@ -4,13 +4,14 @@ public class Arrays {
 
 	public static void main(String[] args) {
 		//1D ARRAYS:
-		String[] cars = {"Ferrari","Aston Martin","Audi","Porsche"};
-		for(int i=0;i<cars.length;i++) {
-			System.out.println(cars[i]);
+		int[] speed= {120,85,45,60};
+		for(int i=0;i<speed.length;i++) {
+			System.out.println(speed[i]+" kmph");
 		}
-		System.out.println("The last car is a " + cars[3]+".");
-		cars[2]="BMW";
-		System.out.println("Now, the third car is a "+cars[2]+".");
+		System.out.println("The speed of the last car is " + speed[3]+"kmph.");
+		System.out.println("The speed of third car is "+speed[2]+"kmph.");
+		speed[2]=92;
+		System.out.println("Now, the speed of third car is "+speed[2]+"kmph.");
 		System.out.println();
 		
 		//2D ARRAYS:
